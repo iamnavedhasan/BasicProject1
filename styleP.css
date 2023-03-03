@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+}
+li {
+    list-style: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50x;
+    font-weight: 800;
+    width: fit-content;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo {
+    font-weight: 600;
+    font-size: 30px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 30px;
+}
+.search-field {
+    display: flex;
+    gap: 40px;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+.left-div-section {
+    width: 60%;
+    padding: 0 8%;
+}
+.left-div-section h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.left-div-section h1 span {
+    color: rgb(20, 160, 160) ;
+    font-weight: 900;
+}
+.left-div-section p {
+    font-weight: 500;
+    
+}
+.left-div-section p span {
+    font-weight: 500;
+    color: rgb(20, 160, 160);
+    
+}
+.right-div-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .right-div-section-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .right-div-section img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  footer {
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  
+  footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
